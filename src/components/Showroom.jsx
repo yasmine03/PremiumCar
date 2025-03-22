@@ -18,7 +18,7 @@ const Showroom = () => {
       image: car7,
       name: "Audi Q7",
       year: 2021,
-      owner: "Aïcha Diabaté",
+      owner: "Grace Diagone",
       price: "120,000 CFA/jour",
       available: false,
     },
@@ -34,7 +34,7 @@ const Showroom = () => {
       image: car9,
       name: "Range Rover Sport",
       year: 2022,
-      owner: "Fatoumata Ouattara",
+      owner: "Tchoukou Diop",
       price: "150,000 CFA/jour",
       available: true,
     },
@@ -50,14 +50,12 @@ const Showroom = () => {
         </p>
       </div>
 
-      {/* Showroom Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6">
         {cars.map((car, index) => (
           <div
             key={index}
             className="bg-white rounded-lg shadow-lg p-5 flex flex-col items-center"
           >
-            {/* Car Image */}
             <img
               src={car.image}
               alt={car.name}
@@ -75,7 +73,6 @@ const Showroom = () => {
               {car.available ? "Disponible" : "Non disponible"}
             </p>
             <p className="text-lg font-semibold text-orange-500">{car.price}</p>
-            {/* Rent Button */}
             <button
               className={`mt-4 px-6 py-2 font-semibold rounded-lg transition-all ${
                 car.available

@@ -1,10 +1,9 @@
 import React from "react";
-import car2 from "../assets/images/car2.png";
 import bon1 from "../assets/images/bon1.png";
 import car4 from "../assets/images/car4.png";
 
 const AnimatedCars = () => {
-  const cars = [car2, bon1, car4];
+  const cars = [ bon1, car4];
 
   return (
     <div className="relative bg-[#eef0fc] h-[350px] overflow-hidden">

@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import Showroom from './components/Showroom'
 import Login from './components/Login'
-import Auth from './components/Auth'
+import  Signup from './components/signup'
 
 const App = () => {
   return (
@@ -14,9 +14,9 @@ const App = () => {
       <Showroom/>
       <Footer/>
       <Login/>
-      <Auth/>
      
       
+      <Signup/>
     </div>
   )
 }

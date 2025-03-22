@@ -22,7 +22,6 @@ const Hero = () => {
             />
           </div>
 
-          {/* Text Section */}
           <div className="text-center md:text-left">
             <p className="text-orange-500 text-lg font-semibold uppercase">
               Fiabilité & Confort
