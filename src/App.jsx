@@ -4,7 +4,6 @@ import Hero from './components/Hero'
 import Footer from './components/Footer'
 import Showroom from './components/Showroom'
 import Login from './components/Login'
-import  Signup from './components/signup'
 
 const App = () => {
   return (
@@ -16,7 +15,6 @@ const App = () => {
       <Login/>
      
       
-      <Signup/>
     </div>
   )
 }
